@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Annie+Use+Your+Telescope & family= Open+Sans:ital,wght@0,300;0,400;1,300 & family= Orbitron & exibir=trocar');
+ 
+
+body{
+    font-family: 'Annie Use Your Telescope';
+    background-image: linear-gradient(to right, #00369b, rgb(136, 124, 240), rgb(196, 201, 255));
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-size: 500% 100%;
+    animation: calculadora-bonita 8s  infinite alternate;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+ h3 {
+    color: #3a5079;
+    font-weight:bold;
+ }
+
+.second-step, .final-step {
+    display: none;
+}
+
+
+.container {
+    font-family: 'Annie Use Your Telescope';
+    position: absolute;
+    background: #ffffff;
+    top: 50%;
+    left: 50%;
+    color:  #000000;
+    transform: translate(-50%,-50%);
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+}
+
+button {
+    font-size: 15px;
+    font-family:'Annie Use Your Telescope';
+    background-color:rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px #696969;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00369b;
+    color: white;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 10px #000000;
+
+}
+
+#resultado {
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    vertical-align: bottom;
+    position: absolute;
+    position: fixed;
+    bottom: 1%;
+    left: 1px;
+    gap: 170px;   
+}
+
+footer a {
+    color:  #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(15, 26, 92);
+}
+
+@keyframes calculadora-bonita {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+
+        }
+    }
