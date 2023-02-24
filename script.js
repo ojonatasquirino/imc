@@ -81,14 +81,14 @@ function validate ()
         if(imc < 18.5)
         {
             console.log('Magreza | Obesidade (Grau): 0');
-            result.innerHTML = 'Magreza | Obesidade (Grau): 0';
+            result.innerHTML = 'Magreza | Obesidade: 0';
             result.style.color = 'orange';
         }
 
         else if (imc >= 18.5 && imc < 25) 
         {
             console.log('Normal | Obesidade (Grau): 0');
-            result.innerHTML = 'Normal | Obesidade (Grau): 0';
+            result.innerHTML = 'Normal | Obesidade: 0';
             result.style.color = 'green';
 
         }
@@ -96,7 +96,7 @@ function validate ()
         else if (imc >= 25 && imc < 30) 
         {
             console.log('Sobrepeso | Obesidade (Grau): 1');
-            result.innerHTML = 'Sobrepeso | Obesidade (Grau): 1';
+            result.innerHTML = 'Sobrepeso | Obesidade: 1';
             result.style.color = 'orange';
 
         }
@@ -104,16 +104,17 @@ function validate ()
         else if (imc >= 30 && imc < 40) 
         {
             console.log('Obesidade | Obesidade (Grau): 2');
-            result.innerHTML = 'Obesidade | Obesidade (Grau): 2';
+            result.innerHTML = 'Obesidade | Obesidade: 2';
             result.style.color = 'red';
         }
 
         else if (imc >= 40) 
         {
             console.log('Obesidade Gravíssima | Obesidade (Grau): 3');
-            result.innerHTML = 'Obesidade Gravíssima| Obesidade (Grau): 3';
+            result.innerHTML = 'Obesidade Gravíssima| Obesidade: 3';
             result.style.color = 'red';
         }
-        go(2,3);   
+        go(2,3);
+
     }
 }

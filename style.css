@@ -4,10 +4,20 @@
 
 body{
     font-family: 'Annie Use Your Telescope';
-    background: #00369b;
+    background-image: linear-gradient(to right, #00369b, rgb(136, 124, 240), rgb(196, 201, 255));
     text-align: center;
     color: rgb(255, 255, 255);
+    background-size: 500% 100%;
+    animation: calculadora-bonita 8s  infinite alternate;
 }
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+ h3 {
+    color: #3a5079;
+    font-weight:bold;
+ }
 
 .second-step, .final-step {
     display: none;
@@ -66,7 +76,7 @@ footer {
     position: absolute;
     position: fixed;
     bottom: 1%;
-    left: 0;
+    left: 1px;
     gap: 170px;   
 }
 
@@ -76,7 +86,15 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(15, 26, 92);
 }
 
-    
+@keyframes calculadora-bonita {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+
+        }
+    }

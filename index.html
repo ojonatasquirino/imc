@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Calculadora IMC | JQ </title>
-    <link rel="stylesheet" href="css/style.css">
+    <title> Calculadora IMC | Saiba seu IMC </title>
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -14,7 +16,7 @@
       <div class="container">
           <div class="first-step">
           <p>Clique em <strong>Iniciar</strong> para calcular o seu IMC</p>
-          <button onclick="go (1,2)"> Iniciar </button>
+          <button onclick ="go(1,2)"> Iniciar </button>
       </div>
 
       <div class="second-step">
@@ -34,14 +36,14 @@
         <h3> Resultado </h3>
         <p id="resultado"></p>
         <button onclick="go(3,2)">Calcule novamente</button>
-        <button onclick="go(3,1)">Finalizar</button>
+        <button onclick="window.location.reload()">Finalizar</button>
     </div>
 </div>
 
 <footer>
-  <a href="https://github.com/ojonatasquirino" target="_blank"> <i class="fa fa-github" style="font-size:36px">  </i> </a>
-  <a href="https://www.linkedin.com/in/jonatasquirino/" target="_blank"> <i class="fa fa-linkedin" style="font-size:36px">  </i> </a>
-  <a href="mailto:quirinoj02@gmail.com"> <i class="fa fa-envelope-o" style="font-size:36px">  </i> </a>
+  <a href="https://github.com/ojonatasquirino" target="_blank" id ="icon"> <i class="fa fa-github" style="font-size:36px">  </i> </a>
+  <a href="https://www.linkedin.com/in/jonatasquirino/" target="_blank" id="icon"> <i class="fa fa-linkedin" style="font-size:36px">  </i> </a>
+  <a href="mailto:quirinoj02@gmail.com"> <i class="fa fa-envelope-o" style="font-size:36px" id="icon">  </i> </a>
 </footer>
 
 

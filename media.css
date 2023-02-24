@@ -1,0 +1,18 @@
+@media screen and (max-width: 760px){
+    h1 {
+        align-items: center;
+    }    
+
+    .container button {
+        margin: 5px;
+        
+    }
+    
+    input {
+        display: inline-block
+    }
+
+    footer {
+        gap: 80px;
+            }
+    }
